@@ -1,21 +1,21 @@
 //
-//  YHBaseViewController.m
-//  YCWebViewProgress
+//  YCBaseViewController.m
+//  YCWebProgressView
 //
 //  Created by apple on 2017/6/6.
 //  Copyright © 2017年 玉河川. All rights reserved.
 //
 
-#import "YHBaseViewController.h"
+#import "YCBaseViewController.h"
 #import "YCWebViewProgress.h"
 
-@interface YHBaseViewController ()
+@interface YCBaseViewController ()
 
 @property (nonatomic, strong) YCWebViewProgress *progressView;
 
 @end
 
-@implementation YHBaseViewController
+@implementation YCBaseViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -17,7 +17,8 @@
 		18330B761EE6AF4600BAD0B6 /* YCWebViewProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18330B751EE6AF4600BAD0B6 /* YCWebViewProgressUITests.m */; };
 		18330B851EE6B12D00BAD0B6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18330B841EE6B12D00BAD0B6 /* QuartzCore.framework */; };
 		18330B891EE6B13700BAD0B6 /* YCWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 18330B881EE6B13700BAD0B6 /* YCWebViewProgress.m */; };
-		18330B8C1EE6B1E300BAD0B6 /* YHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18330B8B1EE6B1E300BAD0B6 /* YHBaseViewController.m */; };
+		18330B8C1EE6B1E300BAD0B6 /* YCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18330B8B1EE6B1E300BAD0B6 /* YCBaseViewController.m */; };
+		1893024D1F0CF9E30089F370 /* RHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1893024C1F0CF9E30089F370 /* RHButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +58,10 @@
 		18330B841EE6B12D00BAD0B6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		18330B871EE6B13700BAD0B6 /* YCWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCWebViewProgress.h; sourceTree = "<group>"; };
 		18330B881EE6B13700BAD0B6 /* YCWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCWebViewProgress.m; sourceTree = "<group>"; };
-		18330B8A1EE6B1E300BAD0B6 /* YHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHBaseViewController.h; sourceTree = "<group>"; };
-		18330B8B1EE6B1E300BAD0B6 /* YHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHBaseViewController.m; sourceTree = "<group>"; };
+		18330B8A1EE6B1E300BAD0B6 /* YCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCBaseViewController.h; sourceTree = "<group>"; };
+		18330B8B1EE6B1E300BAD0B6 /* YCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCBaseViewController.m; sourceTree = "<group>"; };
+		1893024B1F0CF9E30089F370 /* RHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHButton.h; sourceTree = "<group>"; };
+		1893024C1F0CF9E30089F370 /* RHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +115,10 @@
 		18330B4F1EE6AF4600BAD0B6 /* YCWebViewProgress */ = {
 			isa = PBXGroup;
 			children = (
-				18330B8A1EE6B1E300BAD0B6 /* YHBaseViewController.h */,
-				18330B8B1EE6B1E300BAD0B6 /* YHBaseViewController.m */,
+				1893024B1F0CF9E30089F370 /* RHButton.h */,
+				1893024C1F0CF9E30089F370 /* RHButton.m */,
+				18330B8A1EE6B1E300BAD0B6 /* YCBaseViewController.h */,
+				18330B8B1EE6B1E300BAD0B6 /* YCBaseViewController.m */,
 				18330B531EE6AF4600BAD0B6 /* AppDelegate.h */,
 				18330B541EE6AF4600BAD0B6 /* AppDelegate.m */,
 				18330B561EE6AF4600BAD0B6 /* ViewController.h */,
@@ -308,9 +313,10 @@
 			files = (
 				18330B891EE6B13700BAD0B6 /* YCWebViewProgress.m in Sources */,
 				18330B581EE6AF4600BAD0B6 /* ViewController.m in Sources */,
-				18330B8C1EE6B1E300BAD0B6 /* YHBaseViewController.m in Sources */,
+				18330B8C1EE6B1E300BAD0B6 /* YCBaseViewController.m in Sources */,
 				18330B551EE6AF4600BAD0B6 /* AppDelegate.m in Sources */,
 				18330B521EE6AF4600BAD0B6 /* main.m in Sources */,
+				1893024D1F0CF9E30089F370 /* RHButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +554,7 @@
 				18330B7C1EE6AF4600BAD0B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18330B7D1EE6AF4600BAD0B6 /* Build configuration list for PBXNativeTarget "YCWebViewProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +563,7 @@
 				18330B7F1EE6AF4600BAD0B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18330B801EE6AF4600BAD0B6 /* Build configuration list for PBXNativeTarget "YCWebViewProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +572,7 @@
 				18330B821EE6AF4600BAD0B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
